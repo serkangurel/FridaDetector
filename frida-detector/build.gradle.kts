@@ -41,7 +41,7 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("fridaDetector") {
-                groupId = "com.sgmobile"
+                groupId = "com.github.serkangurel"
                 artifactId = "frida_detector"
                 version = "1.0"
 
