@@ -20,5 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "FridaDetector"
+//enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
- 
+include(":frida-detector")
