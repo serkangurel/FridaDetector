@@ -16,7 +16,7 @@ android {
     }
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -43,7 +43,7 @@ afterEvaluate {
             create<MavenPublication>("fridaDetector") {
                 groupId = "com.github.serkangurel"
                 artifactId = "frida_detector"
-                version = "1.2"
+                version = "1.3"
 
                 afterEvaluate {
                     from(components["release"])
